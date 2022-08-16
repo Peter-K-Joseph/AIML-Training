@@ -2,10 +2,7 @@ import pandas as pd
 
 datasheet = pd.read_csv('datasheet.csv')
 
-print(datasheet)
-
 print("Average age: {0}".format(round(datasheet['Age'].mean())))
-
 print("Average salary: {0}".format(round(datasheet['Salary'].mean(), 2)))
 print("Median Age: {0}".format(round(datasheet['Age'].median(), 2)))
 print("Maximum salary: {0}".format(round(datasheet['Salary'].max(), 2)))
